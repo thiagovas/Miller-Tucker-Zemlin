@@ -52,7 +52,7 @@ int main()
 		
 		if(AddTRestriction)
 		{
-			/* INICIO Restrição do número de retornos para a cidade origem. */
+			/* BEGIN Restrição do número de retornos para a cidade origem. */
 			IloExpr exprTempPrim(env); // Restrição sobre o número de arestas incidentes sobre o vértice origem.
 			
 			for(int i = 1; i < n; i++)
@@ -60,7 +60,7 @@ int main()
 			
 			model.add(exprTempPrim == T);
 			exprTempPrim.end();
-			/* FIM Restrição do número de retornos para a cidade origem. */
+			/* END Restrição do número de retornos para a cidade origem. */
 		}
 		
 		for(int i = 1; i < n; i++)
