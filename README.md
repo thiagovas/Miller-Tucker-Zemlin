@@ -6,10 +6,15 @@ An implementation ( using cplex ) of the original formulation of Miller-Tucker-Z
 Uma implementação do Miller-Tucker-Zemlin original usando o pacote cplex.
 
 Input:
+
 4
+
 0 20 23 4
+
 30 0 7 27
+
 25 5 0 25
+
 3 21 26 0
 
 The input is very simple, the first line has the number n of vertices of the graph, then the algorithm reads a adjacency matrix, in other words, it reads n lines where each line has n columns.
